@@ -1,1 +1,5 @@
-
+  Name           Type                          Value
+start_date      string      @formatDateTime(addDays(utcnow(), -1), 'yyyy-MM-dd')
+end_date        string      @formatDateTime(utcnow(), 'yyyy-MM-dd')
+start_date      string      @activity('Bronze Notebook').output.start_date
+start_date      string      @activity('Silver Notebook').output.start_date
