@@ -115,7 +115,7 @@ By following this guide, you’ll implement a solid data pipeline from raw earth
 * Under Public Libraries type in reverse_geocoder and click Save → Publish.
 * Note that this will take up to 15 minutes to publish and a further 5 to connect.
 
-**2.Add Country Codes and Classifications**
+**2. Add Country Codes and Classifications**
 
 ### Step 6: Update Default Semantic Model
 
@@ -191,10 +191,10 @@ This structure makes each step clear and easy to follow.
   * Name: start_date / end_date (match the notebook).
   * Type: String.
   * Value: Add Dynamic Content: 
-Start Date: @formatDateTime(addDays(utcnow(), -1), 'yyyy-MM-dd').
-* Remember to remove the code segments with the comment:
-* Remove this before running Data Factory Pipelineform
-End Date: @formatDateTime(utcnow(), 'yyyy-MM-dd').
+      * Start Date: @formatDateTime(addDays(utcnow(), -1), 'yyyy-MM-dd').
+  * Remember to remove the code segments with the comment:
+      * Remove this before running Data Factory Pipelineform
+      * End Date: @formatDateTime(utcnow(), 'yyyy-MM-dd').
 * This sets the start date to yesterday and the end date to today (for daily runs).
 
 **3. Link Activities:** 
