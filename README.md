@@ -119,6 +119,8 @@ By following this guide, you’ll implement a solid data pipeline from raw earth
 
 **2. Add Country Codes and Classifications**
 
+![Screenshot](Screenshots/Screenshot%202025-05-08%20162434.png)
+
 ### Step 6: Update Default Semantic Model
 
 **1. The lakehouse contains a semantic model:** 
