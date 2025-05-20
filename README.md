@@ -6,6 +6,8 @@ Welcome! This guide will walk you step-by-step through setting up a data pipelin
 
 Earthquake data is incredibly valuable for understanding seismic events and mitigating risks. Government agencies, research institutions, and insurance companies rely on up-to-date information to plan emergency responses and assess risks. With this automated pipeline, we ensure these stakeholders get the latest data in a way that’s easy to understand and ready to use, saving time and improving decision-making.
 
+![Data Engineering vs Software Engineering](Screenshots/Data%20Engineering%20vs%20Software%20Engineering%20(2).png)
+
 ## Solution Overview
 
 We're going to use Microsoft Fabric to build an end-to-end earthquake data pipeline using the medallion architecture. This involves:
