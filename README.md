@@ -6,7 +6,8 @@ Welcome! This guide will walk you step-by-step through setting up a data pipelin
 
 Earthquake data is incredibly valuable for understanding seismic events and mitigating risks. Government agencies, research institutions, and insurance companies rely on up-to-date information to plan emergency responses and assess risks. With this automated pipeline, we ensure these stakeholders get the latest data in a way that’s easy to understand and ready to use, saving time and improving decision-making.
 
-![Data Engineering vs Software Engineering](Screenshots/Data%20Engineering%20vs%20Software%20Engineering%20(2).png)
+![Beige Minimal Flowchart Infographic Graph (2)](https://github.com/user-attachments/assets/1151b853-38c2-44e3-b9e6-36b5b802aded)
+
 
 ## Solution Overview
 
