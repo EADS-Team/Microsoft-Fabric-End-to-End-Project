@@ -1,5 +1,5 @@
   Name           Type                          Value
-start_date      string      @formatDateTime(addDays(utcNow(), -1), 'yyyy-MM-dd')
-end_date        string      @formatDateTime(utcNow(), 'yyyy-MM-dd')
-start_date      string      @activity('Bronze_Notebook').output.start_date
-start_date      string      @activity('Silver_Notebook').output.start_date
+start_date      string      @formatDateTime(addDays(utcNow(), -1), 'yyyy-MM-dd')    # Bronze Notebook
+end_date        string      @formatDateTime(utcNow(), 'yyyy-MM-dd')                 # Bronze Notebook
+start_date      string      @activity('Bronze_Notebook').output.start_date          # Silver Notebook
+start_date      string      @activity('Silver_Notebook').output.start_date          # Gold Notebook
