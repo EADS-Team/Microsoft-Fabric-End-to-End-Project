@@ -56,3 +56,6 @@ df_with_location_sig_class = \
 ***
 # appending the data to the gold table
 df_with_location_sig_class.write.mode('append').saveAsTable('earthquake_events_gold')
+
+df = spark.sql("SELECT * FROM earthquake_lakehouse.earthquake_events_gold")
+display(df)
